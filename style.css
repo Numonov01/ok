@@ -1,0 +1,30 @@
+html {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+#container {
+  /* text-align: center; */
+  width: 100dvw;
+  height: 100dvh;
+}
+
+video {
+  width: 100dvw;
+  height: 100dvh;
+}
